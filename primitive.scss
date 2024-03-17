@@ -1,1 +1,36 @@
+[data-theme='classic-dark'] {
+  --primary-color: oklch(65% 0.1683 255);
+  --on-primary-color: hsl(0deg 0% 100% / 85%);
+  --secondary-color: oklch(65% 0.1683 31);
+  --on-secondary-color: hsl(0deg 0% 100% / 85%);
+  --tertiary-color: hsl(300deg, 100%, 60%);
+  --on-tertiary-color: hsl(0deg, 0%, 100%);
 
+  --error-color: hsl(4deg, 90%, 60%);
+  --on-error-color: hsl(0deg 0% 100% / 85%);
+
+  --surface-dim-color: oklch(12% 0.01 245);
+  --surface-color: oklch(16% 0.01 245);
+  --surface-bright-color: oklch(20% 0.01 245);
+
+  --on-surface-color: oklch(85% 0.01 245);
+  --on-surface-variant-color: oklch(65% 0.01 245);
+  --on-surface-low-color: oklch(50% 0.01 245);
+  --on-surface-lowest-color: oklch(33% 0.01 245);
+
+  --surface-container-lowest-color: oklch(24% 0.01 245);
+  --surface-container-low-color: oklch(28% 0.01 245);
+  --surface-container-color: oklch(32% 0.01 245);
+  --surface-container-high-color: oklch(36% 0.01 245);
+  --surface-container-highest-color: oklch(40% 0.01 245);
+
+  --display-font-size: 24px;
+  --headline-font-size: 20px;
+  --title-font-size: 18px;
+  --body-font-size: 16px;
+  --label-font-size: 14px;
+
+
+  // How to use primitiveVariables
+  // --some-variable: var(--test-primitive-variable-123);
+}
