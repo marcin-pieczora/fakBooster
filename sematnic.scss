@@ -30,7 +30,8 @@
   --body-font-size: 16px;
   --label-font-size: 14px;
 
-  --najnowsza-zmienna: color-fak-testowy;
+  --najnowsza-zmienna: var(--color-fak-testowy);
+  
 
 
   // How to use primitiveVariables
